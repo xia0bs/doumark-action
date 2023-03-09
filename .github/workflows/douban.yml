@@ -19,4 +19,4 @@ jobs:
         type: movie
         format: notion
         dir: 5b9ea15365024ff4a51f7109179dce60
-        notion_token: secret_vr35s5pc2WDYo4bx3l1K3Eqtepa9AXJjvZWNdlxrOqO
+        notion_token: ${{ secrets.notion_token }}
