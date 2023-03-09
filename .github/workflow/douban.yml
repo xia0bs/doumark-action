@@ -1,4 +1,4 @@
-# .github/workflows/douban.yml
+
 name: douban
 on: 
   schedule:
@@ -12,7 +12,7 @@ jobs:
     - name: movie
       uses: xia0bs/doumark-action@master
       with:
-        id: 151651419
+        id: "151651419"
         type: movie
         format: notion
         dir: 5b9ea15365024ff4a51f7109179dce60
