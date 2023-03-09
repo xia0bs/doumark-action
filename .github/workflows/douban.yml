@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: movie
-      uses: xia0bs/doumark-action@master
+      uses: xia0bs/doumark-action@main
       with:
         id: 151651419
         type: movie
