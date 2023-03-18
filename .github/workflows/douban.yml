@@ -8,10 +8,7 @@ jobs:
   douban:
     name: Douban mark data sync
     runs-on: ubuntu-latest
-    steps:
-    - name: Checkout
-      uses: actions/checkout@v3
-      
+    steps:     
     - name: movie
       uses: xia0bs/doumark-action@master
       with:
