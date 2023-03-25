@@ -15,5 +15,5 @@ jobs:
         id: "151651419"
         type: movie
         format: notion
-        dir: "10e245c4d67c478d9dc928b5659c136a"
+        dir: "2e09329dac56499d841cc28da5dd81b0"
         notion_token: ${{ secrets.notion_token }}
